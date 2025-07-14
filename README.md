@@ -4,6 +4,8 @@ database
 sentencia para copiar archivo a contenedor de postgres
 docker cp dataset.csv postgres_container:/docker-entrypoint-initdb.d/dataset.csv
 
+SE deja archivo desafio52 en pgadmin y se copia acá abajo también.
+
 CREATE TABLE IF NOT EXISTS INSCRITOS(cantidad INT, fecha DATE, fuente
 VARCHAR);
 
